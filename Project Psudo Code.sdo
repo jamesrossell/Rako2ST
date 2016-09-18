@@ -9,4 +9,8 @@
 
 //Start listening for UPD broadcast Rako status messages and update the state of the RoomStruct
 
-//Create ST lighting devices for each froom and present them to ST, include the Rako Room ID somehow (network identified?)
+//Create ST lighting devices for each rooms and present them to ST, include the Rako Room ID somehow (network identifier?)
+
+//when room struct changes send notifications to ST
+
+//listen for messages from ST to Lighting device types, interperete messages and send to Rako Bridge for the appropiate rooms
