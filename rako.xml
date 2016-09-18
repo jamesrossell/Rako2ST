@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rako>
+<info>
+<version>2.3.2 WTC</version>
+<buildDate>Aug 09 2016 11:32:27</buildDate>
+<hostName>RAKOBRIDGE     </hostName>
+<hostIP>192.168.1.5</hostIP>
+<hostMAC>00:04:A3:40:06:DB</hostMAC>
+<hwStatus>0F</hwStatus>
+<dbVersion>-16</dbVersion>
+</info>
+<config>
+<requirepassword></requirepassword>
+<passhash>NAN</passhash>
+<charset>UTF-8</charset>
+</config>
+<rooms>
+	<Room id="6">
+		<Type>Lights</Type>
+		<Title>Hall</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="32">
+		<Type>Switch</Type>
+		<Title>Loft</Title>
+		<mode>7+OFF</mode>
+		<Scene id="1">
+			<Name>Scene 1</Name>
+		</Scene>
+	</Room>
+	<Room id="5">
+		<Type>Lights</Type>
+		<Title>Porch</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="9">
+		<Type>Lights</Type>
+		<Title>Study</Title>
+		<mode>7+OFF</mode>
+		<Scene id="1">
+			<Name>Scene 1</Name>
+		</Scene>
+	</Room>
+	<Room id="17">
+		<Type>Switch</Type>
+		<Title>Garage</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="7">
+		<Type>Lights</Type>
+		<Title>Lounge</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="0">
+		<Type>Switch</Type>
+		<Title>All House </Title>
+	</Room>
+	<Room id="11">
+		<Type>Lights</Type>
+		<Title>Kitchen</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Kitchen Lights</Name>
+			<Levels>00000000000000000000000000000000</Levels>
+		</Channel>
+		<Channel id="2">
+			<type>Default</type>
+			<Name>Under Cupboard</Name>
+			<Levels>00000000000000000000000000000000</Levels>
+		</Channel>
+		<Channel id="3">
+			<type>Default</type>
+			<Name>Pelmet</Name>
+			<Levels>7DA74A33000000000000000000000000</Levels>
+		</Channel>
+		<Channel id="4">
+			<type>Default</type>
+			<Name>Dining Lights</Name>
+			<Levels>00000000000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="18">
+		<Type>Lights</Type>
+		<Title>Landing</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="31">
+		<Type>Lights</Type>
+		<Title>Bathroom</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="21">
+		<Type>Lights</Type>
+		<Title>Master Bedroom Ensuite</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="23">
+		<Type>Lights</Type>
+		<Title>Bedroom 4 Ensuite</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="26">
+		<Type>Lights</Type>
+		<Title>Ensuit 3</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="29">
+		<Type>Lights</Type>
+		<Title>Harry's Ensuite</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="19">
+		<Type>Lights</Type>
+		<Title>Master Bedroom</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="22">
+		<Type>Lights</Type>
+		<Title>Bedroom 4</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="25">
+		<Type>Lights</Type>
+		<Title>Bedroom 3</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="27">
+		<Type>Lights</Type>
+		<Title>Harry's Bedroom</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="30">
+		<Type>Lights</Type>
+		<Title>Bedroom 5</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="10">
+		<Type>Lights</Type>
+		<Title>Cloakroom</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="15">
+		<Type>Lights</Type>
+		<Title>Family Room</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="14">
+		<Type>Lights</Type>
+		<Title>Utility Room</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="33">
+		<Type>Lights</Type>
+		<Title>House Front</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+	<Room id="34">
+		<Type>Switch</Type>
+		<Title>Garden Front</Title>
+		<Channel id="1">
+			<type>Default</type>
+			<Name>Channel 1</Name>
+			<Levels>FFBF7F3F000000000000000000000000</Levels>
+		</Channel>
+	</Room>
+
+</rooms>
+</rako>

@@ -1,0 +1,46 @@
+HTTP
+Requests can be made via the web interface by submitting a HTTP GET request in the
+following format:
+http://rakobridge/rako.cgi?room=5&ch=4&com=3
+The example would send Scene 1 command to room 5, channel 4.
+If channel is omitted it will default to 0 meaning all channels.
+A page containing the phrase "Success!" is returned.
+From version 1.1.7:
+Level can be set using: lev=0 to lev=255.
+Events can be enabled/disabled: event=1&active=1 or active=0
+
+XML
+An XML file can be downloaded which contains information about the current
+installation.
+NOTE: the information first requires uploading to the Bridge from Rasoft.
+see rako.xml
+
+Discovery
+Scene Cache from HTTP
+http://rakobridge/scenes.htm The reply is 2 byte per room in HEX
+0015001E0009000A040500210022001F081D0016100E0012001B040B080F
+0015001E0809000A040500210022001F081D0016100E0012001B040B080F
+
+To find a bridge on the network send a UDP broadcast packet where the data consists of a
+single literal 'D'.
+
+12:50:55.496295 IP 192.168.1.5.9761 > 192.168.1.2.58446: UDP, length 36
+        0x0000:  4500 0040 273f 0000 6411 ac16 c0a8 0105  E..@'?..d.......
+        0x0010:  c0a8 0102 2621 e44e 002c ed3a 5241 4b4f  ....&!.N.,.:RAKO
+        0x0020:  4252 4944 4745 2020 2020 200d 0a30 302d  BRIDGE.......00-
+        0x0030:  3034 2d41 332d 3430 2d30 362d 4442 0d0a  04-A3-40-06-DB..
+
+
+Scene Cache
+The scene cache can be obtained by sending a literal 'Q' in the first byte.
+
+12:52:56.130993 IP 192.168.1.5.9761 > 192.168.1.2.58446: UDP, length 37
+        0x0000:  4500 0041 2743 0000 6411 ac11 c0a8 0105  E..A'C..d.......
+        0x0010:  c0a8 0102 2621 e44e 002d 9c5c 4323 0015  ....&!.N.-.\C#..
+        0x0020:  001e 0c09 000a 0405 0021 0022 001f 001d  .........!."....
+        0x0030:  0016 100e 0012 001b 040b 000f 0011 0006  ................
+        0x0040:  6d                                       m
+12:52:56.132908 IP 192.168.1.5.9761 > 192.168.1.2.58446: UDP, length 5
+        0x0000:  4500 0021 2744 0000 6411 ac30 c0a8 0105  E..!'D..d..0....
+        0x0010:  c0a8 0102 2621 e44e 000d 28fb 58ff 0011  ....&!.N..(.X...
+        0x0020:  f000 0000 0000 0000 0000 0000 0000       ..............
