@@ -1,0 +1,12 @@
+//Discover local Rako Bridge
+    //Send a broadcast UDP discovery packet
+    //listen for response (Netbios name & MAC) - learn IP from SRC address
+
+//Discover rooms from http://rakobridge/rako.xml
+  //parse the XML and create a struct representing all the rooms and channels
+
+//Request the Scene cache to find the current state of the rooms and update the RoomStruct
+
+//Start listening for UPD broadcast Rako status messages and update the state of the RoomStruct
+
+//Create ST lighting devices for each froom and present them to ST, include the Rako Room ID somehow (network identified?)
